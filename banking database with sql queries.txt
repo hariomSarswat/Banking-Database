@@ -52,93 +52,93 @@ alter table loan add foreign key (branch_name) references branch(branch_name);
 
 
 
-insert into branch values ('silvassa' , 'silvassa' , 1000);
+insert into branch values ('Bikaner' , 'Bikaner' , 1000);
 
-insert into branch values ('masat' , 'masat' , 2000);
+insert into branch values ('Jodhpur' , 'Jodhpur' , 2000);
 
-insert into branch values ('belsa' , 'belsa' , 3000);
+insert into branch values ('Jaipur' , 'Jaipur' , 3000);
 
-insert into branch values ('rakholi' , 'rakholi' , 4000);
-
-
-
-insert into account values ( '11' , 'silvassa' , 100);
-
-insert into account values ( '12' , 'masat' , 200);
-
-insert into account values ( '13' , 'silvassa' , 300);
-
-insert into account values ( '14' , 'silvassa' , 400);
-
-insert into account values ( '15' , 'silvassa' , 500);
-
-insert into account values ( '16' , 'belsa' , 600);
-
-insert into account values ( '17' , 'silvassa' , 700);
-
-insert into account values ( '18' , 'silvassa' , 800);
-
-insert into account values ( '19' , 'rakholi' , 900);
+insert into branch values ('Sikar' , 'Sikar' , 4000);
 
 
 
-insert into customer values ( 'Abhishek' , 'Dadra' , 'vapi');
+insert into account values ( '11' , 'Sikar' , 100);
 
-insert into customer values ( 'Lokesh' , 'Farma' , 'Dadra');
+insert into account values ( '12' , 'Bikaner' , 200);
 
-insert into customer values ( 'Kalpesh' , 'Madhuban' , 'dudhani');
+insert into account values ( '13' , 'Jodhpur' , 300);
 
-insert into customer values ( 'DC' , 'Ponda' , 'samarvani');
+insert into account values ( '14' , 'Jaipur' , 400);
 
-insert into customer values ( 'Abhinav' , 'Sayli' , 'vapi');
+insert into account values ( '15' , 'Jaipur' , 500);
 
-insert into customer values ( 'Sai' , 'Dadra' , 'bavisa faliya');
+insert into account values ( '16' , 'Bikaner' , 600);
 
+insert into account values ( '17' , 'Bikaner' , 700);
 
+insert into account values ( '18' , 'Sikar' , 800);
 
-insert into depositor values ('Abhishek' , '11');
-
-insert into depositor values ('Abhishek' , '12');
-
-insert into depositor values ('Lokesh' , '13');
-
-insert into depositor values ('Kalpesh' , '14');
-
-insert into depositor values ('DC' , '15');
-
-insert into depositor values ('Abhinav' , '16');
-
-insert into depositor values ('Sai' , '17');
-
-insert into depositor values ('Abhishek' , '18');
+insert into account values ( '19' , 'Jodhpur' , 900);
 
 
 
-insert into loan values ( '201' , 'silvassa' , 1000);
+insert into customer values ( 'Hariom' , 'Runiya Bas' , 'Bikaner');
 
-insert into loan values('202' , 'masat' , 2000);
+insert into customer values ( 'Lokender' , 'Degana' , 'Jodhpur');
 
-insert into loan values('203' , 'silvassa' , 3000);
+insert into customer values ( 'Kamal' , 'Runiya Bas' , 'Bikaner');
 
-insert into loan values('204' , 'belsa' , 4000);
+insert into customer values ( 'Ramdayal' , 'Damtiwara' , 'Jodhpur');
 
-insert into loan values('205' , 'silvassa' , 5000);
+insert into customer values ( 'Rahul' , 'Piprali' , 'Sikar');
 
-insert into loan values('206' , 'rakholi' , 6000);
+insert into customer values ( 'Dinesh' , 'Chomu' , 'Jaipur');
 
 
 
-insert into borrower values ('Abhishek' , 201);
+insert into depositor values ('Hariom' , '11');
 
-insert into borrower values ('Lokesh' , 202);
+insert into depositor values ('Rahul' , '12');
 
-insert into borrower values ('Abhishek' , 203);
+insert into depositor values ('Lokender' , '13');
 
-insert into borrower values ('Kalpesh' , 204);
+insert into depositor values ('Kamal' , '14');
 
-insert into borrower values ('Abhishek' , 205);
+insert into depositor values ('Ramdayal' , '15');
 
-insert into borrower values ('DC' , 206);
+insert into depositor values ('Rahul' , '16');
+
+insert into depositor values ('Dinesh' , '17');
+
+insert into depositor values ('Hariom' , '18');
+
+
+
+insert into loan values ( '201' , 'Bikaner' , 1000);
+
+insert into loan values('202' , 'Jodhpur' , 2000);
+
+insert into loan values('203' , 'Bikaner' , 3000);
+
+insert into loan values('204' , 'Jaipur' , 4000);
+
+insert into loan values('205' , 'Sikar' , 5000);
+
+insert into loan values('206' , 'Jodhpur' , 6000);
+
+
+
+insert into borrower values ('Hariom' , 201);
+
+insert into borrower values ('Lokender' , 202);
+
+insert into borrower values ('Hariom' , 203);
+
+insert into borrower values ('Kamal' , 204);
+
+insert into borrower values ('Hariom' , 205);
+
+insert into borrower values ('Ramadayal' , 206);
 
 
 
