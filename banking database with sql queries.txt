@@ -166,9 +166,9 @@ select * from branch where branch_city = 'Jodhpur'  and  assets > some(select as
 
 
 
-1   Find the names of all customers whose street includes the substring “pur”
+1   Find the names of all customers whose city includes the substring “pur”
 
-->  select * from customer where customer_street like '%pur%';
+->  select * from customer where customer_city like '%pur%';
 
 2   List in alphabetic order the names of all customers having a loan in Bikaner branch
 
